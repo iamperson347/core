@@ -1,0 +1,18 @@
+<form>
+    <field>
+        <id>unbound.advanced.hideIdentity</id>
+        <label>Hide Identity</label>
+        <type>checkbox</type>
+        <help>
+            If enabled, id.server and hostname.bind queries are refused.
+        </help>
+    </field>
+    <field>
+        <id>unbound.advanced.hideVersion</id>
+        <label>Hide Version</label>
+        <type>checkbox</type>
+        <help>
+            If enabled, version.server and version.bind queries are refused.
+        </help>
+    </field>
+</form>

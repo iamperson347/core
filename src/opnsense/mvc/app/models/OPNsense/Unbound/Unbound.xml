@@ -1,7 +1,7 @@
 <model>
     <mount>//OPNsense/unboundplus</mount>
     <description>Unbound configuration</description>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <items>
         <service_enabled type="LegacyLinkField">
             <Source>unbound.enable</Source>
@@ -61,6 +61,16 @@
                 <AddressFamily>ipv4</AddressFamily>
             </address>
         </dnsbl>
+        <advanced>
+            <hideIdentity type="BooleanField">
+                <default>0</default>
+                <Required>Y</Required>
+            </hideIdentity>
+            <hideVersion type="BooleanField">
+                <default>0</default>
+                <Required>Y</Required>
+            </hideVersion>
+        </advanced>
         <forwarding>
             <enabled type="BooleanField">
                 <default>0</default>
