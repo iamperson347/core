@@ -14,7 +14,7 @@
     <page-services-dnsresolver-advanced>
         <name>Services: Unbound DNS: Advanced</name>
         <patterns>
-            <pattern>ui/unbound/advanced/**</pattern>
+            <pattern>ui/unbound/advanced/*</pattern>
         </patterns>
     </page-services-dnsresolver-advanced>
     <page-services-dnsresolver-overrides>
